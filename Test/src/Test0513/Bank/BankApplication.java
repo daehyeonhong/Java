@@ -86,12 +86,28 @@ public class BankApplication {
 		System.out.print("예금액: ");
 		int balance = scanner.nextInt();
 		Account account = findAccount(ano);
-		account.setBalance(balance);
-		System.out.println("결과:예금이 성공되었습니다.");
-
+		if (balance >= 0) {
+			if (account.abc(balance)) {
+				System.out.println("입금이 완료되었습니다.");
+			}
+		} else {
+			System.out.println("입금액을 확인하세요.");
+		}
 	}
 
 	// 출금하기
+	// private static void withdraw() {
+	// System.out.println("--------");
+	// System.out.println("출금");
+	// System.out.println("--------");
+	// System.out.print("계좌 번호:");
+	// String ano = scanner.next();
+	// System.out.print("출금액: ");
+	// int balance = scanner.nextInt();
+	// Account account = findAccount(ano);
+	// account.setBalance(-balance);
+	// System.out.println("결과:출금이 성공되었습니다.");
+	// }
 	private static void withdraw() {
 		System.out.println("--------");
 		System.out.println("출금");
@@ -101,9 +117,14 @@ public class BankApplication {
 		System.out.print("출금액: ");
 		int balance = scanner.nextInt();
 		Account account = findAccount(ano);
-		account.setBalance(-balance);
-		System.out.println("결과:출금이 성공되었습니다.");
-	}
+		if (balance >= 0) {
+			if (account.abc(-balance)) {
+				System.out.println("출금이 완료되었습니다.");
+			} else {
+				System.out.println("출금액을 확인하세요.");
+			}
+		}
+	}// method end
 
 	private static void transfer() {
 		System.out.print("출금 계좌 번호> ");
@@ -114,10 +135,12 @@ public class BankApplication {
 		Account account2 = findAccount(ano2);
 		System.out.print("이체 금액> ");
 		int balance = scanner.nextInt();
-		account1.setBalance(-balance);
-		account2.setBalance(balance);
-		System.out.println("결과: 이체가 성공되었습니다.");
-
+		if (account1.abc(-balance)) {
+			account2.abc(balance);
+			System.out.println("이체를 완료했습니다.");
+		} else {
+			System.out.println("이체 금액을 확인하세요.");
+		}
 	}
 
 	private static void secession() {

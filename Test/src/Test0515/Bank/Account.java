@@ -1,21 +1,21 @@
 package Test0515.Bank;
 
 public class Account {
-	// í•„ë“œ
+	// ÇÊµå
 	private String ano;
 	private String owner;
 	private int balance;
 	private String password;
 	private boolean logon;
 
-	// ìƒì„±ì
+	// »ı¼ºÀÚ
 	public Account(String ano, String owner, int balance, String password) {
 		this.ano = ano;
 		this.owner = owner;
 		this.balance = balance;
 		this.password = password;
 	}
-	// ë©”ì†Œë“œ
+	// ¸Ş¼Òµå
 	public String getAno() {
 		return ano;
 	}
@@ -40,7 +40,7 @@ public class Account {
 		if (this.balance + balance >= 0) {
 			this.balance += balance;
 		}else {
-			System.out.println("ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. í™•ì¸ í›„ ë‹¤ì‹œ ì‹œë„í•´ì£¼ì„¸ìš”.");
+			System.out.println("½ÇÆĞÇß½À´Ï´Ù. È®ÀÎ ÈÄ ´Ù½Ã ½ÃµµÇØÁÖ¼¼¿ä.");
 		}
 	}
 

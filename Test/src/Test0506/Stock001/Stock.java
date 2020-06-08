@@ -31,9 +31,8 @@ void outQty(){
  */
 public class Stock {
 	Scanner scanner = new Scanner(System.in);
-	String item;
-	int choose;
-	int qty;
+	private String item;
+	private int qty;
 
 	Stock() {
 		System.out.print("보관할 품목을 입력하세요> ");
@@ -50,7 +49,6 @@ public class Stock {
 		while (run) {
 			System.out.println("작업을 선택하세요.\r입고(0),\t출고(1),\t종료(2)");
 			int choose = scanner.nextInt();
-			this.choose = choose;
 			switch (choose) {
 			case 0:
 				setQty();
@@ -68,15 +66,15 @@ public class Stock {
 
 	void setQty() {
 		System.out.print("몇 개를 입고하시겠습니까?");
-		int set = scanner.nextInt();
-		this.qty += set;
-		System.out.println(item + set + "개를 입고하여 " + qty + "개를 보관 중입니다.");
+		int amount = scanner.nextInt();
+		this.qty += amount;
+		System.out.println(item + amount + "개를 입고하여 " + qty + "개를 보관 중입니다.");
 	}
 
 	void getQty() {
 		System.out.print("몇 개를 출고하시겠습니까?");
 		int get = scanner.nextInt();
-		if (qty > get) {
+		if (qty >= get) {
 			this.qty -= get;
 			System.out.println(item + get + "개를 출고하여 " + qty + "개를 보관 중입니다.");
 		} else {

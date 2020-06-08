@@ -42,6 +42,17 @@ public class Account {
 		}
 	}
 
+	public boolean abc(int balance) {
+		if (this.balance + balance >= 0) {
+			this.balance += balance;
+			return true;
+		} else {
+			return false;
+		}
+		// if else end
+
+	}// method end
+
 	// toString
 	@Override
 	public String toString() {

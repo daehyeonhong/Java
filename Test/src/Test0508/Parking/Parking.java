@@ -1,4 +1,4 @@
-package Test0508.Parking;
+package TEST0508.Parking;
 
 import java.util.Scanner;
 

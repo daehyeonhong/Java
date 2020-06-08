@@ -9,10 +9,10 @@ public class Fruit extends Object {
 	private int sale;// 판매수량
 	// 생성자3개짜리
 
-	public Fruit(String kind, int price, String brixSrt) {
+	public Fruit(String kind, int price, Brix brix) {
 		this.kind = kind;
 		this.price = price;
-		this.brix = Brix.valueOf(brixSrt);
+		this.brix = brix;
 	}
 
 	// 메소드

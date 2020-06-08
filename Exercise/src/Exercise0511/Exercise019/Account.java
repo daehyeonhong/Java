@@ -1,17 +1,21 @@
 package Exercise0511.Exercise019;
 
 public class Account {
-	private double balance;
-	final double MIN_BALANCE = 0;
-	final double MAX_BALANCE = 1000000;
+	private int balance;
+	final int MIN_BALANCE = 0;
+	final int MAX_BALANCE = 1000000;
 
-	public double getBalance() {
-		return balance;
+	Account() {
+
 	}
 
-	public void setBalance(double balance) {
-		if (MAX_BALANCE >= balance && MIN_BALANCE <= balance) {
+	public void setBalance(int balance) {
+		if (balance >= MIN_BALANCE && balance <= MAX_BALANCE) {
 			this.balance = balance;
 		}
+	}
+
+	public int getBalance() {
+		return balance;
 	}
 }

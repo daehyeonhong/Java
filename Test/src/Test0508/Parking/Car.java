@@ -1,7 +1,7 @@
-package Test0508.Parking;
+package TEST0508.Parking;
 
 public class Car {
-	Kind kind;// Sedan, Truck, Suv
+	Kind kind;// sedan, truck, suv
 	int inTime;
 	int outTime;
 	int parkingTime;
