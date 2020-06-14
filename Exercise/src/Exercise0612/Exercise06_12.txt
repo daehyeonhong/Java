@@ -1,0 +1,5 @@
+Exercise01)	4
+
+Exercise02)	hashCode(), equals()
+
+Exercise11)	byte값 범위[-128~127]를 초과해서.
