@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 public class PatternMatcherExample {
 	public static void main(String[] args) {
 		String id1 = "5Angel1004";
-		String regExp = "[A-Z]\\w{7,11}";
+		String regExp = "[a-zA-Z]\\w{7,11}";
 		boolean isMatch = Pattern.matches(regExp, id1);
 
 		System.out.println(id1 + "의 길이: " + id1.length());
@@ -18,7 +18,7 @@ public class PatternMatcherExample {
 		}
 
 		String id2 = "Aasdas2e";
-		String regExp2 = "[A-Z]\\w{7,11}";
+		String regExp2 = "[a-zA-Z]\\w{7,11}";
 		boolean isMatch2 = Pattern.matches(regExp2, id2);
 
 		System.out.println(id2 + "의 길이: " + id2.length());
