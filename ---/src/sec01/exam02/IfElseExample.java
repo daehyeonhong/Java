@@ -1,17 +1,17 @@
-package sec01.exam2;
+package sec01.exam02;
 
 public class IfElseExample {
 	public static void main(String[] args) {
 		int score = 85;
 		
 		if(score>=90) {
-			System.out.println("Á¡¼ö°¡ 90º¸´Ù Å®´Ï´Ù.");
-			System.out.println("µî±ÞÀº A ÀÔ´Ï´Ù.");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 90ï¿½ï¿½ï¿½ï¿½ Å®ï¿½Ï´ï¿½.");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ A ï¿½Ô´Ï´ï¿½.");
 		} else {
-			System.out.println("Á¡¼ö°¡ 90º¸´Ù ÀÛ½À´Ï´Ù.");
-			System.out.println("µî±ÞÀº  B ÀÔ´Ï´Ù.");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 90ï¿½ï¿½ï¿½ï¿½ ï¿½Û½ï¿½ï¿½Ï´ï¿½.");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½  B ï¿½Ô´Ï´ï¿½.");
 		}
 		
-		System.out.println("Á¾·á");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½");
 	}
 }
