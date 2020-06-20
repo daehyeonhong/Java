@@ -1,17 +1,18 @@
 package ch02;
-//Á¤È®ÇÑ °è»ê½Ã ºÎµ¿¼Ò¼öÁ¡ Å¸ÀÔ »ç¿ëÇÏÁö¾ÊÀ½
+
+//ï¿½ï¿½È®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ï¿½Ò¼ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 public class AccuracyExample {
 	public static void main(String[] args) {
 		int apple = 1;
-		
-		int totalPieces = apple*10;
+
+		int totalPieces = apple * 10;
 		int number = 7;
 		int temp = totalPieces - number;
-		double result = temp/10.0;
-		
-		//double result = apple - number*pieceUnit;//1-0.7 = 0.3
-		
-		System.out.println("»ç°ú ÇÑ°³¿¡¼­ 0.7 Á¶°¢À» »©¸é, ");
-		System.out.println(result+"Á¶°¢ÀÌ ³²´Â´Ù");
+		double result = temp / 10.0;
+
+		// double result = apple - number*pieceUnit;//1-0.7 = 0.3
+
+		System.out.println("ï¿½ï¿½ï¿½ ï¿½Ñ°ï¿½ï¿½ï¿½ï¿½ï¿½ 0.7 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ");
+		System.out.println(result + "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Â´ï¿½");
 	}
 }
