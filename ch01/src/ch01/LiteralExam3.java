@@ -2,15 +2,15 @@ package ch01;
 
 public class LiteralExam3 {
 	public static void main(String[] args) {
-		int a = 0x5;//0x·Î ½ÃÀÛÇÏ´Â ¸®ÅÍ·²Àº 16Áø¼ö(hexa)·Î °£ÁÖ
+		int a = 0x5;// 0xë¡œ ì‹œì‘í•˜ëŠ” ë¦¬í„°ëŸ´ì€ 16ì§„ìˆ˜(hexa)ë¡œ ê°„ì£¼
 		int b = 0xA;
-		int c = 0xB3;//16*B + 3
+		int c = 0xB3;// 16*B + 3
 		int d = 0xAC08;// A*16^3 + C*16^2 + 0*16^1 + 8
-		
-		System.out.println("a="+a);
-		System.out.println("b="+b);
-		System.out.println("c="+c);
-		System.out.println("d="+d);//Ãâ·Â½Ã´Â 10Áø¼ö·Î º¯È¯µÇ¾î¼­ Ãâ·Â
-		
+
+		System.out.println("a=" + a);
+		System.out.println("b=" + b);
+		System.out.println("c=" + c);
+		System.out.println("d=" + d);// ì¶œë ¥ì‹œëŠ” 10ì§„ìˆ˜ë¡œ ë³€í™˜ë˜ì–´ì„œ ì¶œë ¥
+
 	}
 }

@@ -1,19 +1,20 @@
 package ch01;
-//½Ç¼ö ¸®ÅÍ·²
+
+//ì‹¤ìˆ˜ ë¦¬í„°ëŸ´
 public class LiteralExam4 {
-	
+
 	public static void main(String[] args) {
-	//¼Ò¼öÁ¡ÀÌ ÀÖ´Â ¸®ÅÍ·²Àº 10Áø¼ö ½Ç¼ö·Î °£ÁÖ
+		// ì†Œìˆ˜ì ì´ ìˆëŠ” ë¦¬í„°ëŸ´ì€ 10ì§„ìˆ˜ ì‹¤ìˆ˜ë¡œ ê°„ì£¼
 		double x = 0.25;
 		double y = -3.14;
 		y = 10.25;
-		y = 10;//½Ç¼öÅ¸ÀÔº¯¼ö¿¡ Á¤¼ö°ªÀ» ÀÔ·ÂÇÏ¸é Á¤¼ö ¸®ÅÍ·²ÀÌ ½Ç¼öÅ¸ÀÔÀ¸·Î º¯È¯(Çü º¯È¯)
-		
-		System.out.println("x="+x);
-		System.out.println("y="+y);
-		
+		y = 10;// ì‹¤ìˆ˜íƒ€ì…ë³€ìˆ˜ì— ì •ìˆ˜ê°’ì„ ì…ë ¥í•˜ë©´ ì •ìˆ˜ ë¦¬í„°ëŸ´ì´ ì‹¤ìˆ˜íƒ€ì…ìœ¼ë¡œ ë³€í™˜(í˜• ë³€í™˜)
+
+		System.out.println("x=" + x);
+		System.out.println("y=" + y);
+
 		y = 25;
-		
-		System.out.println("y="+y);
+
+		System.out.println("y=" + y);
 	}
 }

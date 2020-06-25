@@ -1,21 +1,22 @@
 package ch01;
-//Á¤¼ö ¸®ÅÍ·²
+
+//ì •ìˆ˜ ë¦¬í„°ëŸ´
 public class LiteralExam1 {
 	public static void main(String[] args) {
-		int x = 0;//¼Ò¼öÁ¡ÀÌ ¾ø´Â Á¤¼ö¸®ÅÍ·²Àº 10Áø¼ö·Î °£ÁÖ
+		int x = 0;// ì†Œìˆ˜ì ì´ ì—†ëŠ” ì •ìˆ˜ë¦¬í„°ëŸ´ì€ 10ì§„ìˆ˜ë¡œ ê°„ì£¼
 		int y = 75;
 		int z = -100;
-		
-		long a = 0b111111111000000000000101l;//2Áø¼ö ¸®ÅÍ·²
+
+		long a = 0b111111111000000000000101l;// 2ì§„ìˆ˜ ë¦¬í„°ëŸ´
 		int b = 0b0101;
-		
-		long l = 24l;//longÅ¸ÀÔ(64bit)±æÀÌÀÇ Á¤¼ö Å¸ÀÔ º¯¼ö
-		
-		System.out.println("x="+x);
-		System.out.println("y="+y);
-		System.out.println("z="+z);
-		System.out.println("a="+a);
-		System.out.println("b="+b);
-		System.out.println("l="+l);
+
+		long l = 24l;// longíƒ€ì…(64bit)ê¸¸ì´ì˜ ì •ìˆ˜ íƒ€ì… ë³€ìˆ˜
+
+		System.out.println("x=" + x);
+		System.out.println("y=" + y);
+		System.out.println("z=" + z);
+		System.out.println("a=" + a);
+		System.out.println("b=" + b);
+		System.out.println("l=" + l);
 	}
 }

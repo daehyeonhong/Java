@@ -2,12 +2,12 @@ package ch01;
 
 public class LiteralExam2 {
 	public static void main(String[] args) {
-		int a = 02;//¸®ÅÍ·²ÀÌ 0À¸·Î ½ÃÀÛÇÏ¸é 8Áø¼ö(octa)·Î °£ÁÖ
+		int a = 02;// ë¦¬í„°ëŸ´ì´ 0ìœ¼ë¡œ ì‹œì‘í•˜ë©´ 8ì§„ìˆ˜(octa)ë¡œ ê°„ì£¼
 		int b = -04;
 		int c = 015;// 8*1+5 = 13;
-		
-		System.out.println("a="+a);
-		System.out.println("b="+b);
-		System.out.println("c="+c);//Ãâ·Â°ªÀº 10Áø¼ö·Î Ãâ·Â
+
+		System.out.println("a=" + a);
+		System.out.println("b=" + b);
+		System.out.println("c=" + c);// ì¶œë ¥ê°’ì€ 10ì§„ìˆ˜ë¡œ ì¶œë ¥
 	}
 }

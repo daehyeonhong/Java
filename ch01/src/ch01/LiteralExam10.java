@@ -1,18 +1,13 @@
 package ch01;
-//¸®ÅÍ·² ÀÚ¹Ù 7 ÀÌÈÄ ¹öÀü
-public class LiteralExam10 {
 
+public class LiteralExam10 {
 	public static void main(String[] args) {
-		int price = 20_100;// 20100°ú µ¿ÀÏ
-		long cardNumber = 1234_5678_1357_9998L;// 1234567813579998L¿Í °°À½
-		long controlBits = 0b10110100_01011011_10110011_111110000L;
-		long maxLong = 0x7fff_ffff_ffff_ffffL;
-		int age = 2______5;// 25¿Í µ¿ÀÏ
-		
-		System.out.println("price="+price);
-		System.out.println("cardNumber="+cardNumber);
-		System.out.println("controlBits"+controlBits);
-		System.out.println("maxLong="+maxLong);
-		System.out.println("age="+age);
+		int a = 02;// ë¦¬í„°ëŸ´ì´ 0ìœ¼ë¡œ ì‹œì‘í•˜ë©´ 8ì§„ìˆ˜(octa)ë¡œ ê°„ì£¼
+		int b = -04;
+		int c = 015;// 8*1+5 = 13;
+
+		System.out.println("a=" + a);
+		System.out.println("b=" + b);
+		System.out.println("c=" + c);// ì¶œë ¥ê°’ì€ 10ì§„ìˆ˜ë¡œ ì¶œë ¥
 	}
 }

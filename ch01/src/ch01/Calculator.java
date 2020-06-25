@@ -1,36 +1,31 @@
-package ch01; //ÆĞÅ°Áö¸í ¼Ò½º ÆÄÀÏ À§Ä¡ ¼±¾ğ
+package ch01; //íŒ¨í‚¤ì§€ëª… ì†ŒìŠ¤ íŒŒì¼ ìœ„ì¹˜ ì„ ì–¸
 
-public class Calculator {//Å¬·¡½º ¼±¾ğºÎ
-	//ÀÚ¹Ù´Â Å¸ÀÔÀÌ ¾ö°İÇÔ.
-	public static void main(String[] args) {//main ¸Ş¼Òµå ¼±¾ğºÎ
-		//Æ¯Á¤ Å¬·¡½º ³»¿¡ Æ÷ÇÔµÈ ÇÔ¼ö = ¸Ş¼Òµå
-		int x=2;//Á¤¼öÇü º¯¼ö x¸¦ ¼±¾ğÇÏ°í Á¤¼ö¸®ÅÍ·² 2¸¦ ´ëÀÔ
-		int y=3;//Á¤¼öÇü º¯¼ö y¸¦ ¼±¾ğÇÏ°í Á¤¼ö¸®ÅÍ·² 3À» ´ëÀÔ
-		int result = x+y;//Á¤¼öÇüº¯¼ö x¿¡ ÀúÀåµÈ °ª°ú Á¤¼öÇüº¯¼ö y¿¡ ÀúÀåµÈ °ªÀ» ´õÇÑ °á°ú¸¦ Á¤¼öÇüº¯¼ö result¿¡ ÀúÀå
-		//dot notation
-		final int z=5;//Á¤¼öÇü »ó¼ö z¸¦ ¼±¾ğÇÏ°í ÃÊ±â°ª Á¤¼ö 5¸¦ ´ëÀÔ
-		System.out.println("°á°ú: " + result);//"°á°ú:"¹®ÀÚ¿­°ú result¿¡ ÀúÀåµÈ °ªÀ» °áÇÕÇÑ °á°ú Ãâ·Â
-				//int x¿Í int y´Â ¸®ÅÍ·²ÀÌÁö¸¸ int result´Â ¸®ÅÍ·²ÀÌ ¾Æ´Ï´Ù
-		System.out.println("1+2"+"3");
-		//z=10; //Á¤¼öÇü »ó¼ö¿¡´Â ÃÊ±âÈ­ ÀÌÈÄ °ªÀ» ´ëÀÔ ºÒ°¡;
-		System.out.println("z="+z);
-		
-		x=10; y=20;
-		result=x+y;
-		System.out.println("x+y="+result);
+public class Calculator {// í´ë˜ìŠ¤ ì„ ì–¸ë¶€
+	// ìë°”ëŠ” íƒ€ì…ì´ ì—„ê²©í•¨.
+	public static void main(String[] args) {// main ë©”ì†Œë“œ ì„ ì–¸ë¶€
+		// íŠ¹ì • í´ë˜ìŠ¤ ë‚´ì— í¬í•¨ëœ í•¨ìˆ˜ = ë©”ì†Œë“œ
+		int x = 2;// ì •ìˆ˜í˜• ë³€ìˆ˜ xë¥¼ ì„ ì–¸í•˜ê³  ì •ìˆ˜ë¦¬í„°ëŸ´ 2ë¥¼ ëŒ€ì…
+		int y = 3;// ì •ìˆ˜í˜• ë³€ìˆ˜ yë¥¼ ì„ ì–¸í•˜ê³  ì •ìˆ˜ë¦¬í„°ëŸ´ 3ì„ ëŒ€ì…
+		int result = x + y;// ì •ìˆ˜í˜•ë³€ìˆ˜ xì— ì €ì¥ëœ ê°’ê³¼ ì •ìˆ˜í˜•ë³€ìˆ˜ yì— ì €ì¥ëœ ê°’ì„ ë”í•œ ê²°ê³¼ë¥¼ ì •ìˆ˜í˜•ë³€ìˆ˜ resultì— ì €ì¥
+		// dot notation
+		final int z = 5;// ì •ìˆ˜í˜• ìƒìˆ˜ zë¥¼ ì„ ì–¸í•˜ê³  ì´ˆê¸°ê°’ ì •ìˆ˜ 5ë¥¼ ëŒ€ì…
+		System.out.println("ê²°ê³¼: " + result);// "ê²°ê³¼:"ë¬¸ìì—´ê³¼ resultì— ì €ì¥ëœ ê°’ì„ ê²°í•©í•œ ê²°ê³¼ ì¶œë ¥
+		// int xì™€ int yëŠ” ë¦¬í„°ëŸ´ì´ì§€ë§Œ int resultëŠ” ë¦¬í„°ëŸ´ì´ ì•„ë‹ˆë‹¤
+		System.out.println("1+2" + "3");
+		// z=10; //ì •ìˆ˜í˜• ìƒìˆ˜ì—ëŠ” ì´ˆê¸°í™” ì´í›„ ê°’ì„ ëŒ€ì… ë¶ˆê°€;
+		System.out.println("z=" + z);
+
+		x = 10;
+		y = 20;
+		result = x + y;
+		System.out.println("x+y=" + result);
 	}
 }
 
-//º¯¼ö ¾Õ¿¡ finalÀ» ºÙÀÌ¸é »ó¼ö·Î º¯È­ 
+//ë³€ìˆ˜ ì•ì— finalì„ ë¶™ì´ë©´ ìƒìˆ˜ë¡œ ë³€í™” 
 
-/*ch01;
-Calculator
-main(args) {
-x=2;
-y=3;
-result = x+y;
-		System.out.println("°á°ú: " + result);
-		System.out.println("1+2"+"3");
-	}
-}*/
-//½Äº°ÀÚ 13°³ (ch01, Calculator, main, args, x, y, result, System, out, println, System, out, println)
+/*
+ * ch01; Calculator main(args) { x=2; y=3; result = x+y;
+ * System.out.println("ê²°ê³¼: " + result); System.out.println("1+2"+"3"); } }
+ */
+//ì‹ë³„ì 13ê°œ (ch01, Calculator, main, args, x, y, result, System, out, println, System, out, println)

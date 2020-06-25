@@ -1,16 +1,15 @@
 package ch01;
 
-public class Hello {//Å¬·¡½º ºí·°, Å¬·¡½º¸íÀº ´ë¹®ÀÚ·Î ½ÃÀÛ
+public class Hello {// í´ë˜ìŠ¤ ë¸”ëŸ­, í´ë˜ìŠ¤ëª…ì€ ëŒ€ë¬¸ìë¡œ ì‹œì‘
 
-	public static void main(String[] args) {//¸Ş¼Òµå ºí·°
-		hello();//µ¿ÀÏ Å¬·¡½º³»¿¡¼­ ´Ù¸¥ ÇÔ¼ö (¸Ş¼Òµå) È£Ãâ
-		System.out.println("Hello, JavaWorld");//½ÇÇà¹®(¸í·É¹®)
-		
+	public static void main(String[] args) {// ë©”ì†Œë“œ ë¸”ëŸ­
+		hello();// ë™ì¼ í´ë˜ìŠ¤ë‚´ì—ì„œ ë‹¤ë¥¸ í•¨ìˆ˜ (ë©”ì†Œë“œ) í˜¸ì¶œ
+		System.out.println("Hello, JavaWorld");// ì‹¤í–‰ë¬¸(ëª…ë ¹ë¬¸)
 
 	}
 
-	public static void hello() {//¸Ş¼Òµå¸íÀº ¼Ò¹®ÀÚ·Î
-		String hello="hello";//º¯¼ö¸íÀº ¼Ò¹®ÀÚ·Î
+	public static void hello() {// ë©”ì†Œë“œëª…ì€ ì†Œë¬¸ìë¡œ
+		String hello = "hello";// ë³€ìˆ˜ëª…ì€ ì†Œë¬¸ìë¡œ
 		System.out.println(hello);
 	}
 }
