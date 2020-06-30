@@ -6,6 +6,7 @@ public class Member {
 
 	private String name;
 	private int gender, age;
+
 	public Member(String name, int gender, int age) {
 		super();
 		this.name = name;
@@ -19,5 +20,9 @@ public class Member {
 
 	public int getAge() {
 		return age;
+	}
+
+	public String getName() {
+		return name;
 	}
 }
